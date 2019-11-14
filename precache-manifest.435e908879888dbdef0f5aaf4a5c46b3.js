@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "33f421c02965d7e6ff73bc411dfd3d46",
+    "revision": "41007e80ab002c9d2b8fac47ffe387f8",
     "url": "chihjung.com/index.html"
   },
   {
-    "revision": "6e2f7c759b708b13072e",
+    "revision": "a6c137765c5cc3bbb965",
     "url": "chihjung.com/static/css/main.b76ca602.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "chihjung.com/static/js/2.106e3ee2.chunk.js"
   },
   {
-    "revision": "6e2f7c759b708b13072e",
-    "url": "chihjung.com/static/js/main.9b5dfb3b.chunk.js"
+    "revision": "a6c137765c5cc3bbb965",
+    "url": "chihjung.com/static/js/main.41d79779.chunk.js"
   },
   {
     "revision": "52e8d26e8744b9cfaef9",
