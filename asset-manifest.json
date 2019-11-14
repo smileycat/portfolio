@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "chihjung.com/static/css/main.b76ca602.chunk.css",
-    "main.js": "chihjung.com/static/js/main.41d79779.chunk.js",
-    "main.js.map": "chihjung.com/static/js/main.41d79779.chunk.js.map",
-    "runtime-main.js": "chihjung.com/static/js/runtime-main.87af2a8e.js",
-    "runtime-main.js.map": "chihjung.com/static/js/runtime-main.87af2a8e.js.map",
-    "static/js/2.106e3ee2.chunk.js": "chihjung.com/static/js/2.106e3ee2.chunk.js",
-    "static/js/2.106e3ee2.chunk.js.map": "chihjung.com/static/js/2.106e3ee2.chunk.js.map",
-    "index.html": "chihjung.com/index.html",
-    "precache-manifest.435e908879888dbdef0f5aaf4a5c46b3.js": "chihjung.com/precache-manifest.435e908879888dbdef0f5aaf4a5c46b3.js",
-    "service-worker.js": "chihjung.com/service-worker.js",
-    "static/css/main.b76ca602.chunk.css.map": "chihjung.com/static/css/main.b76ca602.chunk.css.map",
-    "static/media/demo.mov": "chihjung.com/static/media/demo.e9ce333e.mov",
-    "static/media/marionette_preview.gif": "chihjung.com/static/media/marionette_preview.a04f05b1.gif",
-    "static/media/me.png": "chihjung.com/static/media/me.dd25cd6f.png",
-    "static/media/portfolio_preview.jpg": "chihjung.com/static/media/portfolio_preview.7a170a82.jpg"
+    "main.css": "/static/css/main.b76ca602.chunk.css",
+    "main.js": "/static/js/main.97c9e8f4.chunk.js",
+    "main.js.map": "/static/js/main.97c9e8f4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a5eaf332.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a5eaf332.js.map",
+    "static/js/2.106e3ee2.chunk.js": "/static/js/2.106e3ee2.chunk.js",
+    "static/js/2.106e3ee2.chunk.js.map": "/static/js/2.106e3ee2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.8f06c8473334a264aad78e49b51f1f64.js": "/precache-manifest.8f06c8473334a264aad78e49b51f1f64.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b76ca602.chunk.css.map": "/static/css/main.b76ca602.chunk.css.map",
+    "static/media/demo.mov": "/static/media/demo.e9ce333e.mov",
+    "static/media/marionette_preview.gif": "/static/media/marionette_preview.a04f05b1.gif",
+    "static/media/me.png": "/static/media/me.dd25cd6f.png",
+    "static/media/portfolio_preview.jpg": "/static/media/portfolio_preview.7a170a82.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.87af2a8e.js",
+    "static/js/runtime-main.a5eaf332.js",
     "static/js/2.106e3ee2.chunk.js",
     "static/css/main.b76ca602.chunk.css",
-    "static/js/main.41d79779.chunk.js"
+    "static/js/main.97c9e8f4.chunk.js"
   ]
 }
