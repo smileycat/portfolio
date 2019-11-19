@@ -1,5 +1,5 @@
 import React from 'react';
-import me from './img/me.png';
+import me from './media/me.png';
 import Navbar from './component/navbar'
 import Portfolio from './portfolio'
 
@@ -7,7 +7,7 @@ import Portfolio from './portfolio'
 function AboutPage() {
   return (
     <>
-      <Navbar />
+      <Navbar className="animated slideInDown" />
       <About />
       <Portfolio />
     </>
@@ -16,9 +16,9 @@ function AboutPage() {
 
 function About() {
   return (
-    <section id="about" className="card">
+    <section id="about" className="animated slideInUp card">
       <div className="col">
-        <img src={me} alt="" width="100%" id="me"></img>
+        <img src={me} alt="" width="90%" id="me"></img>
       </div>
       <div className="col">
         <div className="group">
@@ -47,7 +47,7 @@ function About() {
         <p className="text-justify">
           As well as I love
           frontend, I'm also learning to do more backend and moving forward to
-          become a full stack developer.
+          become a full stack developer in the future.
         </p>
         <ul className="med-icon inline-list">
           <li className="mr">

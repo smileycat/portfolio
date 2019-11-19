@@ -1,32 +1,36 @@
 import React from 'react';
 import Project from './component/project'
-import maplechat from './img/maplechat_preview.png'
-import portfolio from './img/portfolio_preview.png'
-import img_process from './img/image_processing_preview.png'
+import maplechat from './media/demo.mov'
+import portfolio from './media/portfolio_preview.jpg'
+import marionette from './media/marionette_preview.gif'
+// import marionette_static from './media/marionette_static.gif'
 
 
 function Portfolio() {
   return (
     <>
-      <section id="portfolio" className="mb">
-        <div className="d-flex flex-wrap justify-center">
+      <section id="portfolio" className="mb animated slideInUp">
+        <div className="d-flex flex-wrap justify-start">
           <Project
             title="MapleChat"
-            description="A chat app built with Django, featuring cartoon character interactions using sprites from the game MapleStory."
+            description="A chat app built with Django, featuring character interactions on top using cartoony sprites from the game MapleStory."
             link="https://github.com/smileycat/MapleChat"
-            image={maplechat}
+            isVideo={true}
+            preview={maplechat}
           />
           <Project
             title="Portfolio"
             description="This portfolio was my first experience of creating a single-page-app, using React JS. Built with mobile-first & simplicity in mind."
-            link="https://github.com/smileycat/MapleChat"
-            image={portfolio}
+            link="https://github.com/smileycat/portfolio"
+            isVideo={false}
+            preview={portfolio}
           />
           <Project
             title="Image Processing"
-            description="Marionette Replacement: a source video with marionette monkey hopping around. Replace the monkey with another character retaining the same motion. By python."
-            link="https://github.com/smileycat/MapleChat"
-            image={img_process}
+            description="Marionette Replacement: a source video with a marionette monkey. Replace with another character retaining the same motion using python."
+            link="https://github.com/smileycat/Marionette-Replacement"
+            isVideo={false}
+            preview={marionette}
           />
         </div>
       </section>
