@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51ea5a2d14ae0feb2fea8730ecd5fe14",
+    "revision": "9563f4ffbd704770ebb32f5d7e2c2c11",
     "url": "/index.html"
   },
   {
-    "revision": "7fe0dfe0c64ff512ea1a",
-    "url": "/static/css/main.4d378440.chunk.css"
+    "revision": "954737046a0b7481ca41",
+    "url": "/static/css/main.60011299.chunk.css"
   },
   {
-    "revision": "0820ce992f6cdba3e4d3",
-    "url": "/static/js/2.d1bcc4dc.chunk.js"
+    "revision": "8686a14ef36d25a0dd88",
+    "url": "/static/js/2.6f82e27d.chunk.js"
   },
   {
-    "revision": "7fe0dfe0c64ff512ea1a",
-    "url": "/static/js/main.6145e6d2.chunk.js"
+    "revision": "954737046a0b7481ca41",
+    "url": "/static/js/main.e28ed358.chunk.js"
   },
   {
     "revision": "05129d9571d833ef1980",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e9ce333e67675098bba0d11c0938ff94",
     "url": "/static/media/demo.e9ce333e.mov"
+  },
+  {
+    "revision": "f7ff085ceef5762a3865a5082d7a24a9",
+    "url": "/static/media/maplechat_preview.f7ff085c.jpg"
   },
   {
     "revision": "a04f05b117c4857ef517817ca4697c6a",
