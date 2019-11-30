@@ -10,7 +10,7 @@ function Landing() {
   return (
     <>
     <Particles className="particles" params={particleSettings} />
-    <div id="landing-bg" className="d-flex justify-center">
+    <div id="landing-bg" className="d-flex-v justify-center">
       <Navbar className="landing"/>
       <section id="landing" className="flex-container flex-fill animated zoomIn">
         <div className="col"></div>

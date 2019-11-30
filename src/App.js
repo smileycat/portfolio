@@ -10,11 +10,11 @@ function App({ location }) {
     <TransitionGroup>
       <CSSTransition
         key={location.key}
-        timeout={450}
+        timeout={600}
         // timeout={{ enter: 3000, exit: 1500 }}
         classNames={'fade'}
       >
-        <div className="d-flex flex-col route-section">
+        <div className="d-flex-v route-section">
           <Switch>
             <Route exact path="/" component={Landing} />
             <Route exact path="/about" component={About} />

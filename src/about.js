@@ -7,7 +7,7 @@ import Portfolio from './portfolio'
 function AboutPage() {
   return (
     <>
-      <Navbar className="animated slideInDown" />
+      <Navbar />
       <About />
       <Portfolio />
     </>
@@ -17,8 +17,8 @@ function AboutPage() {
 function About() {
   return (
     <section id="about" className="animated slideInUp card">
-      <div className="col">
-        <img src={me} alt="" width="90%" id="me"></img>
+      <div id="me" className="col">
+        <img src={me} alt="" width="90%"></img>
       </div>
       <div className="col">
         <div className="group">
@@ -40,14 +40,10 @@ function About() {
           </li>
         </ul>
         <p className="text-justify">
-          I’m a final year undergraduate in computer science who’s passionate
-          in doing web development projects; I pay attention to UI/ UX details
-          and care about aethetics of a page.
-        </p>
-        <p className="text-justify">
-          As well as I love
-          frontend, I'm also learning to do more backend and moving forward to
-          become a full stack developer in the future.
+          I'm a final year undergraduate who is soon to complete my CS degree.
+          I love doing web developments and always thirst for new knowledge for improving my web fundamental skills.
+          
+          I'm especially interested in a front-end developer role.
         </p>
         <ul className="med-icon inline-list">
           <li className="mr">

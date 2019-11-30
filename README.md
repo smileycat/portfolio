@@ -5,7 +5,8 @@ The portfolio was built in ReactJs using create-react-app. It's a single-page-ap
 ### Development
 * SCSS
 * ReactJS
+* React Router
+* React Transition Group
 
 Others:
-* react-router for routing pages.
-* gulp-imagemin for automated compress image size.
+* gulp for automated compress image size.

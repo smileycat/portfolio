@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://smileycat.github.io/portfolio",
+  "homepage": "https://chihjung.com",
   "private": true,
   "dependencies": {
     "gh-pages": "^2.1.1",
@@ -13,9 +13,11 @@
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-transition-group": "^4.3.0",
     "typescript": "^3.7.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
