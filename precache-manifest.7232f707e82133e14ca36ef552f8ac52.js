@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9563f4ffbd704770ebb32f5d7e2c2c11",
+    "revision": "8504e5e416d88b28316b86fd4ca16d27",
     "url": "/index.html"
   },
   {
-    "revision": "954737046a0b7481ca41",
-    "url": "/static/css/main.60011299.chunk.css"
+    "revision": "4ea4fe984b8e8490d3a1",
+    "url": "/static/css/main.c342778d.chunk.css"
   },
   {
-    "revision": "8686a14ef36d25a0dd88",
-    "url": "/static/js/2.6f82e27d.chunk.js"
+    "revision": "2f5f0ac4a138d4c23e24",
+    "url": "/static/js/2.e96f4090.chunk.js"
   },
   {
-    "revision": "954737046a0b7481ca41",
-    "url": "/static/js/main.e28ed358.chunk.js"
+    "revision": "4ea4fe984b8e8490d3a1",
+    "url": "/static/js/main.74af6c7b.chunk.js"
   },
   {
     "revision": "05129d9571d833ef1980",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7ff085ceef5762a3865a5082d7a24a9",
     "url": "/static/media/maplechat_preview.f7ff085c.jpg"
+  },
+  {
+    "revision": "21ecf92345bfb59fb8276dbb679c742d",
+    "url": "/static/media/marionette.21ecf923.jpg"
   },
   {
     "revision": "a04f05b117c4857ef517817ca4697c6a",
