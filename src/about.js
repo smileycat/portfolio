@@ -23,19 +23,17 @@ function About() {
       <div className="col">
         <div className="group">
           <h3>CHIH-JUNG LIAO</h3>
-          <h4 id="job">Web Developer</h4>
+          <h5 id="job">Web Developer</h5>
         </div>
         <ul className="group">
           <li className="d-block personal-attr">
-            <i className="mr fas fa-birthday-cake"></i>
-            23 yrs old
-            </li>
+            <i className="mr-3 fas fa-birthday-cake"></i>23 yrs old
+          </li>
           <li className="d-block personal-attr">
-            <i className="mr fas fa-location-arrow"></i>
-            Ultimo, NSW 2007
-            </li>
+            <i className="mr-3 fas fa-location-arrow"></i>Ultimo, NSW 2007
+          </li>
           <li className="d-block personal-attr">
-            <i className="mr fas fa-envelope"></i>
+            <i className="mr-3 fas fa-envelope"></i>
             <a href="mailto:liaocrong@outlook.com">liaocrong@outlook.com</a>
           </li>
         </ul>
@@ -46,12 +44,12 @@ function About() {
           I'm especially interested in a front-end developer role.
         </p>
         <ul className="med-icon inline-list">
-          <li className="mr">
+          <li className="mr-2">
             <a href="https://github.com/smileycat" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-github"></i>
             </a>
           </li>
-          <li className="ml">
+          <li className="ml-2">
             <a href="https://www.linkedin.com/in/chih-jung-liao/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
             </a>

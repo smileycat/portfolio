@@ -6,21 +6,19 @@ import portfolio from './media/portfolio_preview.jpg'
 import marionette from './media/marionette_preview.gif'
 import marionette_thumb from './media/marionette.jpg'
 
-// import marionette_static from './media/marionette_static.gif'
-
 
 function Portfolio() {
   return (
     <>
       <section id="portfolio" className="mb">
-        <div className="d-flex flex-wrap justify-start">
+        <div className="d-flex flex-wrap">
           <Project
             title="MapleChat"
             description="A chat app featuring character interactions on top using cartoony sprites from the game MapleStory."
             link="https://github.com/smileycat/MapleChat"
             isVideo={true}
             preview={maplechat}
-            tags="# Django, CSS, JavaScript, Authentication system"
+            tags="# Django, CSS, JavaScript, Authentication"
             thumbnail={maplechat_thumb}
           />
           <Project

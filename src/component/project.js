@@ -12,11 +12,11 @@ class Project extends React.Component {
   componentDidMount() {
     document.body.addEventListener('keydown', this.handleKeyDown);
   }
-  
+
   componentWillUnmount() {
     document.body.removeEventListener('keydown', this.handleKeyDown);
   }
-  
+
   handleKeyDown = (e) => {
     if (this.state.show && e.key === "Escape") {
       e.preventDefault();
@@ -42,7 +42,7 @@ class Project extends React.Component {
 
     if (this.props.isVideo)
       preview = (
-        <video className="modal-content" src={this.props.preview} autoPlay loop />
+        <video className="modal-content" src={this.props.preview} autoPlay loop controls />
       );
     else
       preview = (
@@ -51,21 +51,20 @@ class Project extends React.Component {
 
     return (
       <>
-        <div className="card project flex-col justify-between animated slideInUp">
+        <div className="card project flex-col justify-between animated fadeInRight">
           <div className="container-content">
             <a href={this.props.link} target="_blank" className="d-flex items-center" rel="noopener noreferrer">
-              <h5>{this.props.title}</h5>
-              <i className="ml fas fa-share-square"></i>
+              <h6>{this.props.title}</h6>
+              <i className="ml-2 fas fa-share-square"></i>
             </a>
-            <div className="text-justify description mb">{this.props.description}</div>
+            <div className="text-justify description">{this.props.description}</div>
           </div>
-          <div>
+          <div className="mt-6">
             <div className="tags">
-              {/* <i className="fas fa-tags d-inline-block"></i> */}
-              <div className="d-inline"> {this.props.tags}</div>
+              <div>{this.props.tags}</div>
             </div>
             <img src={this.props.thumbnail} className="figure" onClick={this.showModal} alt=""></img>
-            </div>
+          </div>
         </div>
 
         <div className={modalClass} onKeyDown={this.handleKeyDown}>
