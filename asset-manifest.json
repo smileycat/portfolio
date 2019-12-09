@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.33b0bdbc.chunk.css",
-    "main.js": "/static/js/main.d74d5ff6.chunk.js",
-    "main.js.map": "/static/js/main.d74d5ff6.chunk.js.map",
+    "main.css": "/static/css/main.ef7db890.chunk.css",
+    "main.js": "/static/js/main.c5c6d847.chunk.js",
+    "main.js.map": "/static/js/main.c5c6d847.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a5eaf332.js",
     "runtime-main.js.map": "/static/js/runtime-main.a5eaf332.js.map",
-    "static/js/2.e96f4090.chunk.js": "/static/js/2.e96f4090.chunk.js",
-    "static/js/2.e96f4090.chunk.js.map": "/static/js/2.e96f4090.chunk.js.map",
+    "static/js/2.ddfb0317.chunk.js": "/static/js/2.ddfb0317.chunk.js",
+    "static/js/2.ddfb0317.chunk.js.map": "/static/js/2.ddfb0317.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.0fd8df775dcd0434cbf2b2403114d824.js": "/precache-manifest.0fd8df775dcd0434cbf2b2403114d824.js",
+    "precache-manifest.a2c2806612277a1ac606a058f4f3870b.js": "/precache-manifest.a2c2806612277a1ac606a058f4f3870b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.33b0bdbc.chunk.css.map": "/static/css/main.33b0bdbc.chunk.css.map",
+    "static/css/main.ef7db890.chunk.css.map": "/static/css/main.ef7db890.chunk.css.map",
     "static/media/demo.mov": "/static/media/demo.e9ce333e.mov",
-    "static/media/maplechat_preview.jpg": "/static/media/maplechat_preview.f7ff085c.jpg",
-    "static/media/marionette.jpg": "/static/media/marionette.21ecf923.jpg",
+    "static/media/maplechat_preview.jpg": "/static/media/maplechat_preview.365d43b2.jpg",
+    "static/media/marionette.jpg": "/static/media/marionette.04774e0f.jpg",
     "static/media/marionette_preview.gif": "/static/media/marionette_preview.a04f05b1.gif",
-    "static/media/me.png": "/static/media/me.dd25cd6f.png",
-    "static/media/portfolio_preview.jpg": "/static/media/portfolio_preview.7a170a82.jpg"
+    "static/media/index.scss": "/static/media/reflection.d6e047ec.jpg",
+    "static/media/taskflow_preview.jpg": "/static/media/taskflow_preview.211c7875.jpg",
+    "static/media/taskflow_thumb.jpg": "/static/media/taskflow_thumb.3308c087.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.a5eaf332.js",
-    "static/js/2.e96f4090.chunk.js",
-    "static/css/main.33b0bdbc.chunk.css",
-    "static/js/main.d74d5ff6.chunk.js"
+    "static/js/2.ddfb0317.chunk.js",
+    "static/css/main.ef7db890.chunk.css",
+    "static/js/main.c5c6d847.chunk.js"
   ]
 }
