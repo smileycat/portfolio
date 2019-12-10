@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.d8b9b32a.chunk.css",
-    "main.js": "/static/js/main.05cbb0f0.chunk.js",
-    "main.js.map": "/static/js/main.05cbb0f0.chunk.js.map",
+    "main.css": "/static/css/main.d16175a5.chunk.css",
+    "main.js": "/static/js/main.2ced58f6.chunk.js",
+    "main.js.map": "/static/js/main.2ced58f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.a5eaf332.js",
     "runtime-main.js.map": "/static/js/runtime-main.a5eaf332.js.map",
     "static/js/2.ddfb0317.chunk.js": "/static/js/2.ddfb0317.chunk.js",
     "static/js/2.ddfb0317.chunk.js.map": "/static/js/2.ddfb0317.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.07714f0c84f795107f66a1e2fe638ec7.js": "/precache-manifest.07714f0c84f795107f66a1e2fe638ec7.js",
+    "precache-manifest.01162575c3ba5b697e5470c9560bce51.js": "/precache-manifest.01162575c3ba5b697e5470c9560bce51.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.d8b9b32a.chunk.css.map": "/static/css/main.d8b9b32a.chunk.css.map",
+    "static/css/main.d16175a5.chunk.css.map": "/static/css/main.d16175a5.chunk.css.map",
     "static/media/demo.mov": "/static/media/demo.e9ce333e.mov",
     "static/media/maplechat_preview.jpg": "/static/media/maplechat_preview.365d43b2.jpg",
     "static/media/marionette.jpg": "/static/media/marionette.04774e0f.jpg",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.a5eaf332.js",
     "static/js/2.ddfb0317.chunk.js",
-    "static/css/main.d8b9b32a.chunk.css",
-    "static/js/main.05cbb0f0.chunk.js"
+    "static/css/main.d16175a5.chunk.css",
+    "static/js/main.2ced58f6.chunk.js"
   ]
 }
