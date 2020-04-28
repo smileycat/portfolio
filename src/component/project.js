@@ -51,19 +51,25 @@ class Project extends React.Component {
 
     return (
       <>
-        <div className="card project flex-col justify-between animated fadeInRight">
-          <div className="container-content">
-            <a href={this.props.link} target="_blank" className="d-flex items-center" rel="noopener noreferrer">
-              <h6>{this.props.title}</h6>
-              <i className="ml-2 fas fa-share-square"></i>
-            </a>
-            <div className="text-justify description">{this.props.description}</div>
-          </div>
-          <div className="mt-6">
-            <div className="tags">
-              <div>{this.props.tags}</div>
+        <div className="project animated fadeInRight">
+          <div className="text-container flex-1 d-flex-v">
+            <div className="content-upper">
+              <a href={this.props.link} target="_blank" className="d-flex items-center" rel="noopener noreferrer">
+                <h4 className="bold">{this.props.title}</h4>
+                <i className="ml-3 fas fa-share"></i>
+              </a>
+              <div className="text-justify description mt-4">{this.props.description}</div>
             </div>
-            <img src={this.props.thumbnail} className="figure" onClick={this.showModal} alt=""></img>
+            <div className="content-bottom">
+              <div className="divider mt-4 mb-4"></div>
+              <div className="tags">
+                <div>{this.props.tags}</div>
+              </div>
+            </div>
+          </div>
+          <div className="flex-1 img-container">
+            {/* <div className=""><i className="overlay fas fa-expand-arrows-alt"></i></div> */}
+            <img src={this.props.thumbnail} className="" onClick={this.showModal} alt=""></img>
           </div>
         </div>
 
