@@ -4,15 +4,15 @@ $screen-sm: 576px;
 $screen-xs: 320px;
 $gray-text: rgb(110, 110, 110);
 $icon-list: (
-  "html5": "orangered",
-  "css3-alt": rgb(18, 134, 202),
-  "js-square": rgb(134, 207, 74),
-  "react": rgb(77, 170, 224),
-  "node": black,
-  "gulp": rgba(255, 0, 0, 0.61),
-  "python": rgb(14, 114, 196),
-  "java": rgb(255, 136, 0),
-  "share": lightgray,
+  'html5': orangered,
+  'css3-alt': rgb(18, 134, 202),
+  'js-square': rgb(134, 207, 74),
+  'react': rgb(77, 170, 224),
+  'node': black,
+  'gulp': rgba(255, 0, 0, 0.61),
+  'python': rgb(14, 114, 196),
+  'java': rgb(255, 136, 0),
+  'share': lightgray,
 );
 
 @each $icon, $color in $icon-list {
@@ -22,12 +22,12 @@ $icon-list: (
 }
 
 body {
-  background-image: url("../media/cover.jpg");
+  background-image: url('../media/cover.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Noto Sans TC";
+  font-family: 'Noto Sans TC';
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
@@ -37,7 +37,7 @@ html {
 
 nav {
   align-items: center;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   justify-content: space-between;
   position: fixed;
   top: 0;
@@ -63,7 +63,7 @@ nav {
   align-items: center;
   color: white;
   display: flex;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   height: 100vh;
   padding: 2rem;
   position: fixed;
@@ -74,7 +74,7 @@ nav {
 
 #logo {
   color: #eee;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
   margin: 1rem 0;
 }
@@ -290,7 +290,7 @@ nav {
 
 .title {
   font-size: 12vw;
-  font-family: "Roboto";
+  font-family: 'Roboto';
   font-weight: bold;
 }
 

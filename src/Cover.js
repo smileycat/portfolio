@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 function Cover() {
   return (
     <section id="cover" className="animated zoomIn">
@@ -9,7 +8,7 @@ function Cover() {
         <div className="motto">I am a Software Developer</div>
       </div>
     </section>
-  )
+  );
 }
 
 export default Cover;

@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from "react-router-dom";
 
 class Navbar extends React.Component {
   componentDidMount() {
@@ -24,7 +23,7 @@ class Navbar extends React.Component {
   navBackdrop(e) {
     let height = window.innerHeight - 30;
     if (document.body.scrollTop > height || document.documentElement.scrollTop > height)
-      document.getElementById('nav').className = "opaque-black animated slideInDown fast";
+      document.getElementById('nav').className = 'opaque-black animated slideInDown fast';
     else
       document.getElementById('nav').className = '';
   }
@@ -61,9 +60,9 @@ class Navbar extends React.Component {
             </a>
           </div>
         </div>
-      </nav >
-    )
+      </nav>
+    );
   }
 }
 
-export default Navbar
+export default Navbar;

@@ -1,6 +1,5 @@
 import React from 'react';
-import SkillIcon from './component/skillicon';
-
+import SkillIcon from './components/SkillIcon';
 
 function About() {
   return (
@@ -14,11 +13,12 @@ function About() {
             <i className="mr-2 fas fa-map-marker-alt"></i>
             <span>Sydney, NSW 2007</span>
             <p className="text-justify">
-              I'm a recent graduate from Computer Science who loves doing software development
-              and really enjoyed doing web projects. I have solid fundamentals in data structure,
-              object-oriented programming, HTTP protocols, and personally having Java, JavaScript
-              being my strong programming language to work with. Now I'm working myself to become a great full
-              stack developer one day.
+              I'm a recent graduate from Computer Science who loves doing
+              software development and really enjoyed doing web projects. I have
+              solid fundamentals in data structure, object-oriented programming,
+              HTTP protocols, and personally having Java, JavaScript being my
+              strong programming language to work with. Now I'm working myself
+              to become a great full stack developer.
             </p>
             <p>Looking to move out for job location.</p>
           </div>
@@ -35,7 +35,7 @@ function About() {
         </div>
       </section>
     </>
-  )
+  );
 }
 
 export default About;

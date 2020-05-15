@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
 
-
-class Project extends React.Component {
+class DoubleCard extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -18,31 +17,31 @@ class Project extends React.Component {
   }
 
   handleKeyDown = (e) => {
-    if (this.state.show && e.key === "Escape") {
+    if (this.state.show && e.key === 'Escape') {
       e.preventDefault();
-      this.hideModal();
+      this.setState({ show: false });
     }
   }
 
-  showModal = () => {
-    this.setState({
-      show: true,
-    });
-  }
-
-  hideModal = () => {
-    this.setState({
-      show: false,
-    });
+  toggleModal = () => {
+    this.setState({ show: !this.state.show });
   }
 
   render() {
     var preview;
-    var modalClass = this.state.show ? "modal d-flex-v animated zoomIn" : "modal d-none"
+    var modalClass = this.state.show
+      ? 'modal d-flex-v animated zoomIn'
+      : 'modal d-none';
 
     if (this.props.isVideo)
       preview = (
-        <video className="modal-content" src={this.props.preview} autoPlay loop controls />
+        <video
+          className="modal-content"
+          src={this.props.preview}
+          autoPlay
+          loop
+          controls
+        />
       );
     else
       preview = (
@@ -54,11 +53,18 @@ class Project extends React.Component {
         <div className="project animated fadeInRight">
           <div className="text-container flex-1 d-flex-v">
             <div className="content-upper">
-              <a href={this.props.link} target="_blank" className="d-flex items-center" rel="noopener noreferrer">
+              <a
+                href={this.props.link}
+                target="_blank"
+                className="d-flex items-center"
+                rel="noopener noreferrer"
+              >
                 <h4 className="bold">{this.props.title}</h4>
                 <i className="ml-3 fas fa-share"></i>
               </a>
-              <div className="text-justify description mt-4">{this.props.description}</div>
+              <div className="text-justify description mt-4">
+                {this.props.description}
+              </div>
             </div>
             <div className="content-bottom">
               <div className="divider mt-4 mb-4"></div>
@@ -68,18 +74,23 @@ class Project extends React.Component {
             </div>
           </div>
           <div className="flex-1 img-container">
-            {/* <div className=""><i className="overlay fas fa-expand-arrows-alt"></i></div> */}
-            <img src={this.props.thumbnail} className="" onClick={this.showModal} alt=""></img>
+            <img
+              src={this.props.thumbnail}
+              onClick={() => this.toggleModal()}
+              alt=""
+            ></img>
           </div>
         </div>
 
-        <div className={modalClass} onKeyDown={this.handleKeyDown}>
-          <button className="btn-close" onClick={this.hideModal}>&times;</button>
+        <div className={modalClass}>
+          <button className="btn-close" onClick={this.toggleModal}>
+            &times;
+          </button>
           {preview}
         </div>
       </>
-    )
+    );
   }
 }
 
-export default Project
+export default DoubleCard;
