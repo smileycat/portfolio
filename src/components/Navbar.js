@@ -1,41 +1,41 @@
 import React from 'react';
 
 class Navbar extends React.Component {
+  state = {
+    blackNav: null,
+    showMenu: false,
+  };
+
   componentDidMount() {
-    document.getElementById('nav-menu').addEventListener('click', this.menuClick);
     window.addEventListener('scroll', this.navBackdrop);
   }
 
   componentWillUnmount() {
-    document.getElementById('nav-menu').removeEventListener('click', this.menuClick);
     window.removeEventListener('scroll', this.navBackdrop);
   }
 
-  menuClick() {
-    let navList = document.getElementById('nav-list');
-
-    if (navList.className.includes('nav-vertical'))
-      navList.className = navList.className.replace(' nav-vertical', '');
-    else
-      navList.className += ' nav-vertical';
+  toggleMenu = () => {
+    this.setState({ showMenu: !this.state.showMenu });
   }
 
-  navBackdrop(e) {
-    let height = window.innerHeight - 30;
-    if (document.body.scrollTop > height || document.documentElement.scrollTop > height)
-      document.getElementById('nav').className = 'opaque-black animated slideInDown fast';
+  navBackdrop = () => {
+    let height = window.innerHeight - 35;
+    if (document.documentElement.scrollTop > height)
+      this.setState({ blackNav: 'opaque-black animated slideInDown fast' });
     else
-      document.getElementById('nav').className = '';
+      this.setState({ blackNav: null });
   }
 
   render() {
+    let navRight = 'nav-right';
+    navRight += this.state.showMenu ? ' nav-vertical' : '';
     return (
-      <nav id="nav">
+      <nav className={this.state.blackNav}>
         <div className="nav-left">
           <h4 id="logo">chihjung</h4>
         </div>
-        <div id="nav-list" className="nav-right">
-          <div id="nav-menu" className="nav-hide">
+        <div id="nav-list" className={navRight}>
+          <div className="nav-hide" onClick={this.toggleMenu}>
             <i className="fas fa-bars"></i>
           </div>
           <div className="nav-link">
