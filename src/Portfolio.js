@@ -16,7 +16,7 @@ function Portfolio() {
         link="https://github.com/smileycat/MapleChat"
         isVideo={true}
         preview={maplechat}
-        tags="# Django, Authentication, CSS, JavaScript"
+        tags="# Django, Django Channel, Websockets"
         thumbnail={maplechat_thumb}
       />
       <DoubleCard
@@ -34,7 +34,7 @@ function Portfolio() {
         link="https://smileycat.github.io/Taskflow"
         isVideo={false}
         preview={taskflow}
-        tags="# HTML, SCSS, Vanilla JavaScript"
+        tags="# HTML, SCSS, JavaScript"
         thumbnail={taskflow_thumb}
       />
     </section>
