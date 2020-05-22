@@ -4,8 +4,8 @@ $screen-sm: 576px;
 $screen-xs: 320px;
 $gray-text: rgb(110, 110, 110);
 $icon-list: (
-  'html5': orangered,
-  'css3-alt': rgb(18, 134, 202),
+  'git-alt': rgb(235, 80, 50),
+  'sass': rgb(198, 99, 147),
   'js-square': rgb(134, 207, 74),
   'react': rgb(77, 170, 224),
   'node': black,
@@ -88,19 +88,32 @@ nav {
   padding-bottom: 0 !important;
 }
 
-#skills {
+#skillsets {
   align-self: center;
   display: grid;
-  flex: 1;
   grid-template-columns: auto auto auto auto;
   grid-auto-rows: min-content;
   gap: 1rem 2rem;
   justify-content: center;
 }
 
+#skillsets i {
+  font-size: 4rem;
+  position: relative;
+  transition: bottom 0.5s;
+  bottom: 0;
+  &:hover {
+    bottom: 0.5rem;
+    transition: 0.3s;
+  }
+  &:hover + div {
+    opacity: 1;
+  }
+}
+
 @media (max-width: 1000px) and (min-width: $screen-md),
   (max-width: $screen-sm) {
-  #skills {
+  #skillsets {
     grid-template-columns: auto auto auto;
   }
 }
@@ -126,20 +139,6 @@ nav {
   overflow: hidden;
   &:hover .overlay {
     display: block;
-  }
-}
-
-.skill-icon i {
-  font-size: 4rem;
-  position: relative;
-  transition: bottom 0.5s;
-  bottom: 0;
-  &:hover {
-    bottom: 0.5rem;
-    transition: 0.3s;
-  }
-  &:hover + div {
-    opacity: 1;
   }
 }
 
