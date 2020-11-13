@@ -6,13 +6,8 @@
     "type": "git",
     "url": "https://github.com/smileycat/portfolio"
   },
-  "homepage": "https://chihjung.com",
+  "homepage": "https://smileycat.github.io/portfolio",
   "private": true,
-  "dependencies": {
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
-  },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -36,10 +31,15 @@
       "last 1 safari version"
     ]
   },
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
+  },
   "devDependencies": {
     "gh-pages": "^2.2.0",
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.2.0",
-    "node-sass": "^4.14.1"
+    "gulp-imagemin": "^6.2.0"
   }
 }
