@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.d084896b.chunk.css",
-    "main.js": "/static/js/main.32cac194.chunk.js",
-    "main.js.map": "/static/js/main.32cac194.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.17a0efde.js",
-    "runtime-main.js.map": "/static/js/runtime-main.17a0efde.js.map",
-    "static/js/2.f7a037de.chunk.js": "/static/js/2.f7a037de.chunk.js",
-    "static/js/2.f7a037de.chunk.js.map": "/static/js/2.f7a037de.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.6476914c5465fde90be337eb71b7b99b.js": "/precache-manifest.6476914c5465fde90be337eb71b7b99b.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.d084896b.chunk.css.map": "/static/css/main.d084896b.chunk.css.map",
-    "static/js/2.f7a037de.chunk.js.LICENSE.txt": "/static/js/2.f7a037de.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/static/media/cover.c47135d5.jpg",
-    "static/media/demo.mov": "/static/media/demo.e9ce333e.mov",
-    "static/media/maplechat_preview.jpg": "/static/media/maplechat_preview.365d43b2.jpg",
-    "static/media/marionette.jpg": "/static/media/marionette.04774e0f.jpg",
-    "static/media/marionette_preview.gif": "/static/media/marionette_preview.a04f05b1.gif",
-    "static/media/taskflow_preview.jpg": "/static/media/taskflow_preview.211c7875.jpg",
-    "static/media/taskflow_thumb.jpg": "/static/media/taskflow_thumb.3308c087.jpg"
+    "main.css": "/portfolio/static/css/main.33020af1.chunk.css",
+    "main.js": "/portfolio/static/js/main.8733a274.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8733a274.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
+    "static/js/2.1d9dd861.chunk.js": "/portfolio/static/js/2.1d9dd861.chunk.js",
+    "static/js/2.1d9dd861.chunk.js.map": "/portfolio/static/js/2.1d9dd861.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.ffcc8cde1ebf55e750a4fc7d66833b24.js": "/portfolio/precache-manifest.ffcc8cde1ebf55e750a4fc7d66833b24.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.33020af1.chunk.css.map": "/portfolio/static/css/main.33020af1.chunk.css.map",
+    "static/js/2.1d9dd861.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1d9dd861.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/portfolio/static/media/cover.c47135d5.jpg",
+    "static/media/demo.mov": "/portfolio/static/media/demo.e9ce333e.mov",
+    "static/media/maplechat_preview.jpg": "/portfolio/static/media/maplechat_preview.365d43b2.jpg",
+    "static/media/marionette.jpg": "/portfolio/static/media/marionette.04774e0f.jpg",
+    "static/media/marionette_preview.gif": "/portfolio/static/media/marionette_preview.a04f05b1.gif",
+    "static/media/taskflow_preview.jpg": "/portfolio/static/media/taskflow_preview.211c7875.jpg",
+    "static/media/taskflow_thumb.jpg": "/portfolio/static/media/taskflow_thumb.3308c087.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.17a0efde.js",
-    "static/js/2.f7a037de.chunk.js",
-    "static/css/main.d084896b.chunk.css",
-    "static/js/main.32cac194.chunk.js"
+    "static/js/runtime-main.209c2d7e.js",
+    "static/js/2.1d9dd861.chunk.js",
+    "static/css/main.33020af1.chunk.css",
+    "static/js/main.8733a274.chunk.js"
   ]
 }
