@@ -3,26 +3,9 @@ $screen-md: 768px;
 $screen-sm: 576px;
 $screen-xs: 320px;
 $gray-text: rgb(110, 110, 110);
-$icon-list: (
-  'git-alt': rgb(235, 80, 50),
-  'sass': rgb(198, 99, 147),
-  'js-square': rgb(134, 207, 74),
-  'react': rgb(77, 170, 224),
-  'node': black,
-  'gulp': rgba(255, 0, 0, 0.61),
-  'python': rgb(14, 114, 196),
-  'java': rgb(255, 136, 0),
-  'share': lightgray,
-);
-
-@each $icon, $color in $icon-list {
-  .fa-#{$icon} {
-    color: #{$color};
-  }
-}
 
 body {
-  background-image: url('../media/cover.jpg');
+  background-image: url('../../assets/cover.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -93,7 +76,7 @@ nav {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-auto-rows: min-content;
-  gap: 1rem 2rem;
+  gap: 1.25rem 2rem;
   justify-content: center;
 }
 
@@ -111,8 +94,7 @@ nav {
   }
 }
 
-@media (max-width: 1000px) and (min-width: $screen-md),
-  (max-width: $screen-sm) {
+@media (max-width: 1000px) and (min-width: $screen-md), (max-width: $screen-sm) {
   #skillsets {
     grid-template-columns: auto auto auto;
   }

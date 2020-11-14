@@ -1,0 +1,48 @@
+{
+  "person": {
+    "name": "David Liao",
+    "location": "Sydney, NSW 2007"
+  },
+  "skills": [
+    {
+      "name": "NodeJS",
+      "icon": "fab fa-node-js",
+      "color": "#689f63"
+    },
+    {
+      "name": "ReactJS",
+      "icon": "fab fa-react",
+      "color": "#4daae0"
+    },
+    {
+      "name": "Sass",
+      "icon": "fab fa-sass",
+      "color": "#c66393"
+    },
+    {
+      "name": "Java",
+      "icon": "fab fa-java",
+      "color": "#ff8800"
+    },
+    {
+      "name": "Python",
+      "icon": "fab fa-python",
+      "color": "#0e72c4"
+    },
+    {
+      "name": "docker",
+      "icon": "fab fa-docker",
+      "color": "#00aeff"
+    },
+    {
+      "name": "git",
+      "icon": "fab fa-git-alt",
+      "color": "#eb5032"
+    },
+    {
+      "name": "Dev",
+      "icon": "fab fa-dev",
+      "color": "#333"
+    }
+  ]
+}
