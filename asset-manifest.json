@@ -1,29 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.33020af1.chunk.css",
-    "main.js": "/portfolio/static/js/main.8733a274.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8733a274.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
-    "static/js/2.1d9dd861.chunk.js": "/portfolio/static/js/2.1d9dd861.chunk.js",
-    "static/js/2.1d9dd861.chunk.js.map": "/portfolio/static/js/2.1d9dd861.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e05cc335.chunk.css",
+    "main.js": "/portfolio/static/js/main.f0dd9319.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f0dd9319.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.bcd5af5a.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.bcd5af5a.js.map",
+    "static/js/2.48a588b6.chunk.js": "/portfolio/static/js/2.48a588b6.chunk.js",
+    "static/js/2.48a588b6.chunk.js.map": "/portfolio/static/js/2.48a588b6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ffcc8cde1ebf55e750a4fc7d66833b24.js": "/portfolio/precache-manifest.ffcc8cde1ebf55e750a4fc7d66833b24.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.33020af1.chunk.css.map": "/portfolio/static/css/main.33020af1.chunk.css.map",
-    "static/js/2.1d9dd861.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1d9dd861.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/portfolio/static/media/cover.c47135d5.jpg",
-    "static/media/demo.mov": "/portfolio/static/media/demo.e9ce333e.mov",
-    "static/media/maplechat_preview.jpg": "/portfolio/static/media/maplechat_preview.365d43b2.jpg",
-    "static/media/marionette.jpg": "/portfolio/static/media/marionette.04774e0f.jpg",
-    "static/media/marionette_preview.gif": "/portfolio/static/media/marionette_preview.a04f05b1.gif",
-    "static/media/taskflow_preview.jpg": "/portfolio/static/media/taskflow_preview.211c7875.jpg",
-    "static/media/taskflow_thumb.jpg": "/portfolio/static/media/taskflow_thumb.3308c087.jpg"
+    "static/css/main.e05cc335.chunk.css.map": "/portfolio/static/css/main.e05cc335.chunk.css.map",
+    "static/js/2.48a588b6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.48a588b6.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/portfolio/static/media/cover.6869ca17.jpg",
+    "static/media/demo.6d378e20.mov": "/portfolio/static/media/demo.6d378e20.mov",
+    "static/media/maplechat_preview.cf4a12e4.jpg": "/portfolio/static/media/maplechat_preview.cf4a12e4.jpg",
+    "static/media/marionette.2f37316b.jpg": "/portfolio/static/media/marionette.2f37316b.jpg",
+    "static/media/marionette_preview.0199fd37.gif": "/portfolio/static/media/marionette_preview.0199fd37.gif",
+    "static/media/taskflow_preview.244073ae.jpg": "/portfolio/static/media/taskflow_preview.244073ae.jpg",
+    "static/media/taskflow_thumb.c3ac1821.jpg": "/portfolio/static/media/taskflow_thumb.c3ac1821.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.209c2d7e.js",
-    "static/js/2.1d9dd861.chunk.js",
-    "static/css/main.33020af1.chunk.css",
-    "static/js/main.8733a274.chunk.js"
+    "static/js/runtime-main.bcd5af5a.js",
+    "static/js/2.48a588b6.chunk.js",
+    "static/css/main.e05cc335.chunk.css",
+    "static/js/main.f0dd9319.chunk.js"
   ]
 }
