@@ -1,77 +1,59 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
-class Card extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      show: false,
-    };
-  }
+function Card(props) {
+  const [showModal, setShowModal] = useState(false);
 
-  componentDidMount() {
-    document.body.addEventListener('keydown', this.handleKeyDown);
-  }
+  useEffect(() => {
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
 
-  componentWillUnmount() {
-    document.body.removeEventListener('keydown', this.handleKeyDown);
-  }
-
-  handleKeyDown = (e) => {
-    if (this.state.show && e.key === 'Escape') {
+  const handleKeyDown = e => {
+    if (showModal && e.key === 'Escape') {
       e.preventDefault();
-      this.setState({ show: false });
+      setShowModal(false);
     }
   };
 
-  toggleModal = () => {
-    this.setState({ show: !this.state.show });
-  };
-
-  render() {
-    var preview;
-    var modalClass = this.state.show ? 'modal d-flex-v animated zoomIn' : 'modal d-none';
-
-    if (this.props.isVideo)
-      preview = <video className="modal-content" src={this.props.preview} autoPlay loop controls />;
-    else preview = <img className="modal-content" src={this.props.preview} alt="" />;
-
-    return (
-      <>
-        <div className="project animated fadeInRight">
-          <div className="text-container flex-1 d-flex-v">
-            <div className="content-upper">
-              <a
-                href={this.props.link}
-                target="_blank"
-                className="d-flex items-center"
-                rel="noopener noreferrer"
-              >
-                <h4 className="bold">{this.props.title}</h4>
-                <i style={{ color: 'lightgray' }} className="ml-3 fas fa-share"></i>
-              </a>
-              <div className="text-justify description mt-4">{this.props.description}</div>
-            </div>
-            <div className="content-bottom">
-              <div className="divider mt-4 mb-4"></div>
-              <div className="tags">
-                <div>{this.props.tags}</div>
-              </div>
+  return (
+    <>
+      <div className="project animated fadeInRight">
+        <div className="text-container flex-1 d-flex-v">
+          <div className="content-upper">
+            <a
+              href={props.link}
+              target="_blank"
+              className="d-flex items-center"
+              rel="noopener noreferrer"
+            >
+              <h4 className="bold">{props.title}</h4>
+              <i style={{ color: 'lightgray' }} className="ml-3 fas fa-share"></i>
+            </a>
+            <div className="text-justify description mt-4">{props.description}</div>
+          </div>
+          <div className="content-bottom">
+            <div className="divider mt-4 mb-4"></div>
+            <div className="tags">
+              <div>{props.tags}</div>
             </div>
           </div>
-          <div className="flex-1 img-container">
-            <img src={this.props.thumbnail} onClick={() => this.toggleModal()} alt=""></img>
-          </div>
         </div>
-
-        <div className={modalClass}>
-          <button className="btn-close" onClick={this.toggleModal}>
-            &times;
-          </button>
-          {preview}
+        <div className="flex-1 img-container">
+          <img src={props.thumbnail} onClick={() => setShowModal(!showModal)} alt=""></img>
         </div>
-      </>
-    );
-  }
+      </div>
+      <div className={showModal ? 'modal d-flex-v animated zoomIn' : 'modal d-none'}>
+        <button className="btn-close" onClick={() => setShowModal(!showModal)}>
+          &times;
+        </button>
+        {props.isVideo ? (
+          <video className="modal-content" src={props.preview} autoPlay loop controls />
+        ) : (
+          <img className="modal-content" src={props.preview} alt="" />
+        )}
+      </div>
+    </>
+  );
 }
 
 export default Card;
