@@ -1,5 +1,4 @@
 import React from 'react';
-import SkillIcon from './components/SkillIcon';
 import Projects from './components/Projects';
 import { person, skills } from '../assets/portfolio.json';
 
@@ -18,8 +17,20 @@ function App() {
         </div>
         <div className="mr-3 ml-3 flex-1">
           <article className="description">
-            <i className="mr-2 fas fa-map-marker-alt"></i>
-            <span>{person.location}</span>
+            <span>
+              <i className="mr-2 fas fa-map-marker-alt" />
+              {person.location}
+              <div
+                style={{
+                  fontStyle: 'italic',
+                  color: '#aaa',
+                  float: 'right',
+                  transform: 'scale(0.85)',
+                }}
+              >
+                last updated June 2020
+              </div>
+            </span>
             <p className="text-justify">
               I am a graduate with Bachelor Computer Science who loves doing software development
               and making web projects. I have solid fundamentals in data structure, object-oriented
@@ -34,7 +45,10 @@ function App() {
         </div>
         <div id="skillsets" className="mr-3 ml-3 flex-1">
           {skills.map(({ name, icon, color }) => (
-            <SkillIcon key={name} name={name} icon={icon} color={color} />
+            <div key={name} className="d-flex-v items-center">
+              <i style={{ color: color }} className={icon}></i>
+              <div className="hidden-cap">{name}</div>
+            </div>
           ))}
         </div>
       </section>
